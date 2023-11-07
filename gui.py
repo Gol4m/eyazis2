@@ -15,7 +15,7 @@ import tkinter.filedialog
 
 from methods.ngram_method import lang_ngram
 from methods.alphabet_method import lang_alph
-
+from methods.nn_method import lang_nn
 output_path = ""
 
 OUTPUT_PATH = Path(__file__).parent
@@ -46,7 +46,7 @@ def ngram_method():
         file_ = open(file, 'r', encoding='utf-8')
         text = BeautifulSoup(file_.read(), features='html.parser').get_text()
         language_of_doc = lang_ngram(text)
-        text_area.insert('1.0', f"Файл {file} написан на {language_of_doc} языке\n")
+        text_area.insert('1.0', f"Файл {file} написан на {language_of_doc} языке. Определено с помощью метода N-грамм\n")
 
 
 def alph_method():
@@ -62,8 +62,25 @@ def alph_method():
     for file in files_in_dir:
         file_ = open(file, 'r', encoding='utf-8')
         text = BeautifulSoup(file_.read(), features='html.parser').get_text()
+        language_of_doc = lang_nn(text)
+        text_area.insert('1.0', f"Файл {file} написан на {language_of_doc} языке. Определено с помощью Алфавитного метода\n")
+
+
+def nn_method():
+    document_dir = select_document()
+    file_list = os.listdir(document_dir)
+
+    files_in_dir = list()
+    for file_name in file_list:
+        file_path = os.path.join(document_dir, file_name)
+        if os.path.isfile(file_path):
+            files_in_dir.append(file_path)
+
+    for file in files_in_dir:
+        file_ = open(file, 'r', encoding='utf-8')
+        text = BeautifulSoup(file_.read(), features='html.parser').get_text()
         language_of_doc = lang_alph(text)
-        text_area.insert('1.0', f"Файл {file} написан на {language_of_doc} языке\n")
+        text_area.insert('1.0', f"Файл {file} написан на {language_of_doc} языке. Определено с помощью Нейросетевого метода\n")
 
 
 def save_output():
@@ -261,7 +278,7 @@ button_nn_method = Button(
     image=button_nn_method_image,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: print(select_document(), "Neural network clicked"),
+    command=nn_method,
     relief="flat"
 )
 button_nn_method.place(

@@ -44,5 +44,5 @@ def lang_ngram(text):
     elif de_dict > ru_dict:
         return 'Русском'
     else:
-        return 'Unable to recognize'
+        return 'Невозможно определить'
 

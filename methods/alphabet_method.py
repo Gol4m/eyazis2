@@ -26,5 +26,5 @@ def lang_alph(text: str):
     elif russian_count < deutsch_count:
         return "Немецком"
     else:
-        return "Unable to recognize"
+        return "Невозможно определить"
 

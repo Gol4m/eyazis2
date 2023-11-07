@@ -1,4 +1,7 @@
-Файл C:/eyazis_labs/eyazis2/htmls/russian\russian.html написан на Русском языке
-Файл C:/eyazis_labs/eyazis2/htmls/russian\example.html написан на Русском языке
-Файл C:/eyazis_labs/eyazis2/htmls/deutsch\deutsch.html написан на Немецком языке
+Файл C:/eyazis_labs/eyazis2/htmls/russian\russian.html написан на Русском языке. Определено с помощью метода N-грамм
+Файл C:/eyazis_labs/eyazis2/htmls/russian\example.html написан на Русском языке. Определено с помощью метода N-грамм
+Файл C:/eyazis_labs/eyazis2/htmls/russian\russian.html написан на Русском языке. Определено с помощью Алфавитного метода
+Файл C:/eyazis_labs/eyazis2/htmls/russian\example.html написан на Русском языке. Определено с помощью Алфавитного метода
+Файл C:/eyazis_labs/eyazis2/htmls/russian\russian.html написан на Русском языке. Определено с помощью Нейросетевого метода
+Файл C:/eyazis_labs/eyazis2/htmls/russian\example.html написан на Русском языке. Определено с помощью Нейросетевого метода
 
