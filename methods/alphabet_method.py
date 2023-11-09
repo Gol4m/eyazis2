@@ -12,7 +12,6 @@ deutsch = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
 
 def lang_alph(text: str):
     counter = Counter(text.lower())
-
     russian_count = 0
     for letter in russian:
         russian_count += counter[letter]
@@ -27,4 +26,7 @@ def lang_alph(text: str):
         return "Немецком"
     else:
         return "Невозможно определить"
+
+
+lang_alph("Пример текста на русском языке")
 

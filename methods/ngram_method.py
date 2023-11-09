@@ -23,6 +23,7 @@ def lang_ngram(text):
                                  max_features=300)
     vectorizer.fit_transform(sent_tokenize(text))
     ngrams = vectorizer.get_feature_names_out()
+
     ru_dict = 0
     for i, ng in enumerate(ngrams):
         try:
@@ -46,3 +47,6 @@ def lang_ngram(text):
     else:
         return 'Невозможно определить'
 
+
+
+lang_ngram("Пример текста на русском языке")

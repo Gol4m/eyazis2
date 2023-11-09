@@ -9,13 +9,13 @@ from bs4 import BeautifulSoup
 
 # from tkinter import *
 # Explicit imports to satisfy Flake8
-from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage, Toplevel
+from tkinter import Tk, Canvas, Text, Button, PhotoImage, Toplevel
 import tkinter as tk
 import tkinter.filedialog
 
 from methods.ngram_method import lang_ngram
 from methods.alphabet_method import lang_alph
-from methods.nn_method import lang_nn
+from assets.nn_method_ import lang_nn
 output_path = ""
 
 OUTPUT_PATH = Path(__file__).parent
@@ -87,6 +87,7 @@ def save_output():
     output = text_area.get("1.0", "end")
     with open("save.txt", "w") as file:
         file.write(output)
+    print("Сохранено!")
 
 
 def help_window_up():
@@ -128,7 +129,7 @@ def help_window_up():
         12.0,
         219.0,
         anchor="nw",
-        text="Кнопка “Методом N-грамм” определит язык документов в выбранной папке\nметодом N-грамм",
+        text="Кнопка “Методом N-грамм” определит\nязык документов в выбранной папке\nметодом N-грамм",
         fill="#FFFFFF",
         font=("Inter", 16 * -1)
     )
@@ -137,7 +138,7 @@ def help_window_up():
         13.0,
         291.0,
         anchor="nw",
-        text="Кнопка “Алфавитный метод” определит язык документов в выбранной папке\nалфавитным методом",
+        text="Кнопка “Алфавитный метод” определит\nязык документов в выбранной папке\nалфавитным методом",
         fill="#FFFFFF",
         font=("Inter", 16 * -1)
     )
@@ -146,7 +147,7 @@ def help_window_up():
         11.0,
         363.0,
         anchor="nw",
-        text="Кнопка “Нейросетевой метод” определит язык документов в выбранной папке\nнейросетевым методом",
+        text="Кнопка “Нейросетевой метод” определит\nязык документов в выбранной папке\nнейросетевым методом",
         fill="#FFFFFF",
         font=("Inter", 16 * -1)
     )
