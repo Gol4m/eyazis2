@@ -15,7 +15,7 @@ import tkinter.filedialog
 
 from methods.ngram_method import lang_ngram
 from methods.alphabet_method import lang_alph
-from assets.nn_method_ import lang_nn
+from methods.nn_method import NeuralNetworkMethod
 output_path = ""
 
 OUTPUT_PATH = Path(__file__).parent
@@ -62,7 +62,7 @@ def alph_method():
     for file in files_in_dir:
         file_ = open(file, 'r', encoding='utf-8')
         text = BeautifulSoup(file_.read(), features='html.parser').get_text()
-        language_of_doc = lang_nn(text)
+        language_of_doc = lang_alph(text)
         text_area.insert('1.0', f"Файл {file} написан на {language_of_doc} языке. Определено с помощью Алфавитного метода\n")
 
 
@@ -79,7 +79,8 @@ def nn_method():
     for file in files_in_dir:
         file_ = open(file, 'r', encoding='utf-8')
         text = BeautifulSoup(file_.read(), features='html.parser').get_text()
-        language_of_doc = lang_alph(text)
+        detector = NeuralNetworkMethod()
+        language_of_doc = detector.predict_language(text)
         text_area.insert('1.0', f"Файл {file} написан на {language_of_doc} языке. Определено с помощью Нейросетевого метода\n")
 
 

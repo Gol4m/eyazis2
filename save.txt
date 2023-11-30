@@ -1,10 +1,22 @@
-Файл C:/Users/armor/OneDrive/Рабочий стол/eyaz/eyazis2/htmls/rus_and_deu\russian.html написан на Русском языке. Определено с помощью Нейросетевого метода
-Файл C:/Users/armor/OneDrive/Рабочий стол/eyaz/eyazis2/htmls/rus_and_deu\example.html написан на Русском языке. Определено с помощью Нейросетевого метода
-Файл C:/Users/armor/OneDrive/Рабочий стол/eyaz/eyazis2/htmls/rus_and_deu\deutsch.html написан на Немецком языке. Определено с помощью Нейросетевого метода
-Файл C:/Users/armor/OneDrive/Рабочий стол/eyaz/eyazis2/htmls/rus_and_deu\russian.html написан на Русском языке. Определено с помощью Алфавитного метода
-Файл C:/Users/armor/OneDrive/Рабочий стол/eyaz/eyazis2/htmls/rus_and_deu\example.html написан на Русском языке. Определено с помощью Алфавитного метода
-Файл C:/Users/armor/OneDrive/Рабочий стол/eyaz/eyazis2/htmls/rus_and_deu\deutsch.html написан на Немецком языке. Определено с помощью Алфавитного метода
-Файл C:/Users/armor/OneDrive/Рабочий стол/eyaz/eyazis2/htmls/rus_and_deu\russian.html написан на Русском языке. Определено с помощью метода N-грамм
-Файл C:/Users/armor/OneDrive/Рабочий стол/eyaz/eyazis2/htmls/rus_and_deu\example.html написан на Русском языке. Определено с помощью метода N-грамм
-Файл C:/Users/armor/OneDrive/Рабочий стол/eyaz/eyazis2/htmls/rus_and_deu\deutsch.html написан на Немецком языке. Определено с помощью метода N-грамм
+Файл C:/eyazis2/htmls/rus_and_deu\sleep_ru.html написан на Русском языке, с точностью 0.9982386827468872. Определено с помощью Нейросетевого метода
+Файл C:/eyazis2/htmls/rus_and_deu\sleep_deu.html написан на Немецком языке, с точностью 0.9950939416885376. Определено с помощью Нейросетевого метода
+Файл C:/eyazis2/htmls/rus_and_deu\russian.html написан на Русском языке, с точностью 0.9989360570907593. Определено с помощью Нейросетевого метода
+Файл C:/eyazis2/htmls/rus_and_deu\programming_ru.html написан на Русском языке, с точностью 0.9976329207420349. Определено с помощью Нейросетевого метода
+Файл C:/eyazis2/htmls/rus_and_deu\programming_deu.html написан на Немецком языке, с точностью 0.9988774061203003. Определено с помощью Нейросетевого метода
+Файл C:/eyazis2/htmls/rus_and_deu\deutsch.html написан на Немецком языке, с точностью 0.9988607168197632. Определено с помощью Нейросетевого метода
+Файл C:/eyazis2/htmls/rus_and_deu\sleep_ru.html написан на Русском языке. Определено с помощью метода N-грамм
+Файл C:/eyazis2/htmls/rus_and_deu\sleep_deu.html написан на Немецком языке. Определено с помощью метода N-грамм
+Файл C:/eyazis2/htmls/rus_and_deu\russian.html написан на Русском языке. Определено с помощью метода N-грамм
+Файл C:/eyazis2/htmls/rus_and_deu\programming_ru.html написан на Русском языке. Определено с помощью метода N-грамм
+Файл C:/eyazis2/htmls/rus_and_deu\programming_deu.html написан на Немецком языке. Определено с помощью метода N-грамм
+Файл C:/eyazis2/htmls/rus_and_deu\deutsch.html написан на Немецком языке. Определено с помощью метода N-грамм
+Файл C:/eyazis2/htmls/deutsch\sleep_deu.html написан на Немецком языке, с точностью 0.9950939416885376. Определено с помощью Нейросетевого метода
+Файл C:/eyazis2/htmls/deutsch\prog_deu.html написан на Немецком языке, с точностью 0.9988774061203003. Определено с помощью Нейросетевого метода
+Файл C:/eyazis2/htmls/deutsch\deutsch.html написан на Немецком языке, с точностью 0.9988607168197632. Определено с помощью Нейросетевого метода
+Файл C:/eyazis2/htmls/deutsch\sleep_deu.html написан на Немецком языке. Определено с помощью Алфавитного метода
+Файл C:/eyazis2/htmls/deutsch\prog_deu.html написан на Немецком языке. Определено с помощью Алфавитного метода
+Файл C:/eyazis2/htmls/deutsch\deutsch.html написан на Немецком языке. Определено с помощью Алфавитного метода
+Файл C:/eyazis2/htmls/deutsch\sleep_deu.html написан на Немецком языке. Определено с помощью метода N-грамм
+Файл C:/eyazis2/htmls/deutsch\prog_deu.html написан на Немецком языке. Определено с помощью метода N-грамм
+Файл C:/eyazis2/htmls/deutsch\deutsch.html написан на Немецком языке. Определено с помощью метода N-грамм
 

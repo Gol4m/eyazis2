@@ -47,6 +47,3 @@ def lang_ngram(text):
     else:
         return 'Невозможно определить'
 
-
-
-lang_ngram("Пример текста на русском языке")
